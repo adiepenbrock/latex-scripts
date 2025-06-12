@@ -16,6 +16,9 @@ LaTeX-Scripts/
 ├── acronyms/                    # Acronym management tool
 │   ├── acronyms                 # Main script
 │   └── README.md               # Tool-specific documentation
+├── bibliography/                # Bibliography management tool
+│   ├── bibliography             # Main script
+│   └── README.md               # Tool-specific documentation
 └── [future-tools]/             # Additional tools (coming soon)
 ```
 
@@ -41,6 +44,31 @@ cd acronyms
 ```
 
 📖 **[Full Documentation](./acronyms/README.md)**
+
+---
+
+### [Bibliography](./bibliography/) - Bibliography Management Tool
+
+**Status**: ✅ Ready  
+**Language**: Python 3.6+  
+**Dependencies**: None (standard library only)
+
+A comprehensive tool for managing LaTeX bibliography files and citations:
+- **Check** bibliography usage and identify unused entries or missing citations
+- **Remove** unused bibliography entries to keep .bib files clean
+- **Verify** URL availability for web references and update access dates
+- **Clean** comprehensive cleanup combining removal and verification
+- **Support** for all common citation commands (cite, natbib, biblatex)
+
+**Quick Start**:
+```bash
+cd bibliography
+./bibliography check references.bib          # Check usage
+./bibliography verify references.bib         # Verify URLs
+./bibliography clean references.bib          # Full cleanup
+```
+
+📖 **[Full Documentation](./bibliography/README.md)**
 
 ---
 
