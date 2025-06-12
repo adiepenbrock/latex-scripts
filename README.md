@@ -33,9 +33,8 @@ Make sure only the intended acronyms are present in the file or within the same 
 - No external dependencies
 
 ### Notes
-The script assumes all `\acro{}` entries are located within a single acronym environment in the file.
-
-The sorting is case-insensitive and based on the acronym key used in `\acro{...}`.
+- The script assumes all `\acro{}` entries are located within a single acronym environment in the file.
+- The sorting is case-insensitive and based on the acronym key used in `\acro{...}`.
 
 ## License
 This repository is licensed under the MIT License.
